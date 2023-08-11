@@ -121,9 +121,30 @@ html, body {
     margin: 10px 0px 0px 10px;
     display: none;
 }
+@media screen and (max-width : 450px){
+    .search input {
+        border: 0;
+        outline: 0;
+        background: #ebfffc;
+        padding: 10px 15px;
+        height: 60px;
+        border-radius: 30px;
+        flex: 1 1 300px;
+        margin-right: 10px;
+        font-size: 18px;
+        overflow: hidden;
+    }
 
-
-
-
+    .search button {
+        border: 0;
+        outline: 0;
+        background: #ebfffc;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        flex: 1 1 100px;
+        cursor: pointer;
+    }
+}
 
 
